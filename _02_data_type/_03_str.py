@@ -50,7 +50,7 @@ print(text, len(text))
 # - str 내에서 old에 해당하는 문자를 new로 치환(변경)
 print('--- str.replace() ---')
 today = '2026-06-01'
-# print(today, today.replace(old:'-', new:'/'))
+print(today, today.replace('-', '/'))
 
 #str.strip([str])
 #
