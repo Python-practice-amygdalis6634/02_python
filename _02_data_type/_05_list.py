@@ -53,7 +53,7 @@ print("lst: ", lst)
 # 특정 인덱스 값 제거
 # list.pop(index): 해당 인덱스 값이 제거
 # 제거된 index 뒤 요소들을 한 칸씩 당김
-print("--- list remnve ---")
+print("--- list remove ---")
 lst.pop(2)
 print("lst: ", lst)
 print("id(lst): ", id(lst))
@@ -199,6 +199,9 @@ d, *e = numbers
 print(d, e)
 
 numbers = [10, 20, 30, 40, 50]
-a, *b, c - = numbers
+a, *b, c  = numbers
 print(a, b, c)
 
+
+# list : [] - mutable   (수정 가능)
+# tuple : () - immutable (수정 불가)
